@@ -108,7 +108,9 @@
                         
                             <li><a href="/">首页</a></li>
                         
-                            <li><a href="/tags/%E6%A0%B9%E6%A0%87%E7%AD%BE">标签</a></li>
+                            <li><a href="/tags/%E5%B7%A6%E7%BF%BC">左翼</a></li>
+                        
+                            <li><a href="/tags/%E7%A7%91%E6%8A%80">科技</a></li>
                         
                         </ul>
                     </nav>
@@ -173,7 +175,9 @@
                 
                     <li><a href="/">首页</a></li>
                 
-                    <li><a href="/tags/%E6%A0%B9%E6%A0%87%E7%AD%BE">标签</a></li>
+                    <li><a href="/tags/%E5%B7%A6%E7%BF%BC">左翼</a></li>
+                
+                    <li><a href="/tags/%E7%A7%91%E6%8A%80">科技</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -330,7 +334,7 @@
     <script>
         $(document).ready(function() {
             var backgroundnum = 20;
-            var backgroundimg = "url(/background/bg-" + backgroundnum +".jpg)";
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
         })
